@@ -5,7 +5,8 @@
 - YOLO 모델 설명
   - fire_v1 : 불꽃 관련 데이터를 100번 학습한 데이터
   - fire_v2 : 고체연료에 붙은 불꽃 관련 데이터 셋 3000장을 100번 학습한 데이터
-  - fire : 고체연료에 붙은 불꽃 관련 데이터 셋을 1000장으로 줄여 100번 학습한 데이터
+  - fire_v3 : 고체연료에 붙은 불꽃 관련 데이터 셋을 1000장으로 줄여 100번 학습한 데이터
+  - fire : 고체연료에 붙은 불꽃 관련 데이터 셋 1000장에 추가로 CCTV에서 촬영한 불곷 데이터 셋을 추가해 100번 학습한 데이터
 - 실행 방법
   - python3 iot_client_pt.py IP PORT NAME
   - python3 iot_client_pt_img_receive.py IP PORT NAME
