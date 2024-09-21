@@ -9,9 +9,7 @@
   - fire_v3 : 고체연료에 붙은 불꽃 관련 데이터 셋을 1000장으로 줄여 100번 학습한 데이터
   - fire : 고체연료에 붙은 불꽃 관련 데이터 셋 1000장에 추가로 CCTV에서 촬영한 고체연료 불꽃 데이터 셋을 추가해 100번 학습한 데이터
 - 실행 방법
-  - python3 iot_client_pt.py IP PORT NAME
-  - python3 iot_client_pt_img_receive.py IP PORT NAME
-  - python3 detect_client.py IP PORT NAME
+  - python3 *.py IP PORT NAME
   - IP : 연결할 서버의 IP 작성
   - PORT : 서버의 PORT 작성
   - NAME : 서버에 등록된 NAME 작성
